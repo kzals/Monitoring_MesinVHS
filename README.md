@@ -74,14 +74,10 @@ Argumen CLI:
 
 ### Dummy / Simulasi
 
-Tanpa koneksi hardware:
+Tanpa koneksi hardware: centang "Gunakan data dummy" di tab Settings.
 
 ```bash
-# Via GUI: centang "Gunakan data dummy" di tab Settings
 python vhs_gui.py
-
-# CLI dummy standalone (hanya tampilan terminal):
-python dummy_s3600.py
 ```
 
 ## Struktur Proyek
@@ -90,7 +86,6 @@ python dummy_s3600.py
 |------|-----------|
 | `vhs_gui.py` | Aplikasi utama GUI (CustomTkinter) |
 | `vhs.py` | CLI version — headless Modbus reader |
-| `dummy_s3600.py` | Simulasi data dummy di terminal |
 | `.env` | Konfigurasi lokal (tidak ikut push) |
 | `.env.example` | Template konfigurasi (push ke repo) |
 | `requirements.txt` | Dependencies Python |

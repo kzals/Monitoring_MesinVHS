@@ -1,34 +1,8 @@
-# Environment
-.env
-
-# Virtual environment
 venv/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build artifacts
 build/
 dist/
-*.spec
-*.iss
-
-# Logs
+__pycache__/
+*.pyc
 *.log
-
-# IDE / OS
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# Installer output
-*.exe
-Monitoring_VHS_Setup.exe
-Monitoring_VHS_Setup-*.exe
+.env
+.tmp_*
